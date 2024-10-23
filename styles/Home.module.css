@@ -1,0 +1,121 @@
+/* SpotifyTracks */
+.floatingAudioPlayer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #eaeaeae0;
+    box-shadow: 0 -2px 5px rgba(92, 72, 72, 0.596); 
+    z-index: 1000; 
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+/* PlaylistModal */
+.modal-card-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .select select {
+    font-size: 16px;
+  }
+  
+  .button {
+    font-size: 18px;
+  }
+  
+  .modalCardTitle {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .playlistSelect {
+    font-size: 16px;
+  }
+  
+  .buttonPrimary {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+  
+  .buttonCancel {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+/* Navbar */
+.navbarContainer {
+    padding: 10px;
+    background-color: #eaeaeae0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+    box-shadow: 0 2px 4px rgba(92, 72, 72, 0.596); 
+  }
+  .navbarButtons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .profileImage {
+    width: 30px;
+    margin-right: 20px;
+    border-radius: 100%;
+  }z
+
+  /* index */
+.container {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .titleHeading {
+    margin-top: 100px; 
+    margin-bottom: 30px; 
+    font-size: 32px; 
+    text-align: center; 
+  }
+
+  @media only screen and (max-width: 600px) {
+    .columns.is-half {
+      margin-bottom: 10px;
+    }
+      .is-flex.is-flex-direction-column.is-align-items-flex-end {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      padding-bottom: 10px; /* Add some padding for better spacing */
+    }
+  }
+  
+  /* Adjust the button style for mobile */
+  @media only screen and (max-width: 600px) {
+    .buttonAddToPlaylist {
+      width: 100%;
+    }
+  }
+
+  
+  .pagination {
+    width: 100%; /* Stretch across the entire width */
+    position: absolute; /* Positioning relative to its nearest positioned ancestor */
+    bottom: 0; /* Align to the bottom of its container */
+    display: flex;
+    justify-content: space-between; /* Space out the arrows */
+    padding: 10px 20px; /* Add some padding on the sides */
+    box-sizing: border-box;
+}
+
+

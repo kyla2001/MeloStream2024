@@ -1,0 +1,122 @@
+.centered-div {
+    text-align: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+}
+
+.songGrid {
+    display: inline-block; /* Ensures the ul does not take the full width */
+    grid-template-columns: 1fr; /* One column layout */
+    gap: 20px; /* Reduced gap for a tighter layout */
+    padding: 20px;
+    width: 100%;
+}
+
+
+.songCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9; /* Light grey background for each card */
+    border-radius: 8px; /* Rounded corners for card */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* rounded corners */
+    width: 100%;
+}
+
+.songCard:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* darker shadow on hover for interactive effect */
+}
+
+
+.songImage {
+    width: auto;
+    height: 120px;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.songInfo {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto; /* Four columns setup */
+    align-items: center;
+    gap: 20px;
+    width: 1200px;
+    padding: 10px;
+    justify-items: start; /* Aligns content of all columns to the start (left) */
+}
+
+
+.trackDetails {
+    flex-grow: 1;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 50px;
+}
+
+.likeButton, .deleteButton {
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    margin-left: 10px;
+    justify-self: center; /* Center the like button column if needed */
+}
+
+
+
+/* PlaylistDetails.module.css */
+
+.playlistContainer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Ensures full width */
+}
+
+.playlistHeader {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.playlistDetails {
+    width: 65%;
+    background-color: #f9f9f9; /* Light grey background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.playlistActions {
+    gap: 10px;
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+}
+
+.editInput, .editTextarea {
+    width: 100%; /* Take full width of the container */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.floatingAudioPlayer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #eaeaeae0;
+    box-shadow: 0 -2px 5px rgba(92, 72, 72, 0.596); 
+    z-index: 1000; 
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }

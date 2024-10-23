@@ -1,0 +1,131 @@
+/* Playlist.module.css */
+.playlistContainer{
+    margin-top: 50px;
+}
+.cardContainer {
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px rgba(92, 72, 72, 0.596);
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.cardContainer:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.rightAligned {
+    justify-content: flex-end;
+}
+
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+
+.details {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.title {
+    flex: 1;
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+.description {
+    font-size: 16px;
+    flex: 2;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-right: 50px;
+}
+
+
+.playlistItem{
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #ffffffe0;
+    box-shadow: 0 2px 4px rgba(92, 72, 72, 0.2);
+}
+
+
+.inputGroup {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    gap: 5px;
+}
+
+.input,
+.textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.textarea {
+    resize: none;
+    min-height: 100px;
+    flex: 1;
+}
+
+
+.playlistContainer {
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 10px;
+}
+
+.formRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.inputField, .button {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.playlistCard {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+@media (max-width: 768px) {
+    .formRow {
+        flex-direction: column;
+    }
+
+    .inputField, .button {
+        flex: none;
+        width: 100%;
+        margin: 10px 0;
+    }
+}

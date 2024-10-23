@@ -1,0 +1,38 @@
+/* CreatePlaylist.module.css */
+.formContainer {
+    padding: 40px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 60px;
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+
+.inputText,
+.textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 38px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.textarea {
+    height: 38px;
+    resize: none;
+}

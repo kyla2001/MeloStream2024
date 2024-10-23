@@ -1,0 +1,75 @@
+/* Comments.module.css */
+
+.commentsContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.commentsHeader {
+  margin-bottom: 10px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.commentsList {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Adjust these styles as needed to fit the new card layout */
+.commentItem {
+  display: flex;
+  width: 1000px;
+  background-color: #f9f9f9; /* Light grey background for each card */
+  border-radius: 8px; /* Rounded corners for card */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  padding: 12px;
+  margin-top: 50px;
+  margin-bottom: 20px; /* Space between cards */
+}
+
+.commentText, .timestamp {
+  margin-bottom: 10px;
+}
+
+.commentActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-left: 550px;
+}
+
+
+.commentInput {
+  margin-left: 50px;
+}
+
+.inputGroup {
+  display: flex;
+  gap: 10px;
+}
+
+.inputField {
+  flex: 1;
+  padding: 8px;
+  width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 50px;
+}
+
+.button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
