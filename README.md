@@ -23,7 +23,6 @@ cd MeloStream2024
 Install the necessary dependencies by running:
 
 ```bash
-cd melostream
 npm install
 ```
 
